@@ -1,0 +1,239 @@
+[
+  {
+    "main": {
+      "code": "417298634",
+      "state": "NEW",
+      "status": "APPROVED_BY_BANK",
+      "customer": {
+        "id": "Nzc2MTg1NTg0Nw",
+        "name": "Мадина",
+        "lastName": "Төленбекова",
+        "cellPhone": "7761855847",
+        "firstName": "Мадина"
+      },
+      "preOrder": false,
+      "totalPrice": 2180,
+      "paymentMode": "PREPAID",
+      "creationDate": 1727349795056,
+      "deliveryCost": 0,
+      "deliveryMode": "DELIVERY_LOCAL",
+      "pickupPointId": "Mechta_O31",
+      "deliveryAddress": {
+        "town": "Астана",
+        "building": null,
+        "district": null,
+        "latitude": 51.087648,
+        "apartment": "5 подъезд, 4 этаж, квартира 279",
+        "longitude": 71.428201,
+        "streetName": "улица Алихана Бокейханова",
+        "streetNumber": "25",
+        "formattedAddress": "Астана, улица Алихана Бокейханова, 25, 5 подъезд, 4 этаж, квартира 279"
+      },
+      "isKaspiDelivery": false,
+      "signatureRequired": false,
+      "approvedByBankDate": 1727349796370,
+      "plannedDeliveryDate": 1727463590999,
+      "deliveryCostForSeller": 0
+    },
+    "sb_city": {
+      "code": "710000000",
+      "name": "Астана",
+      "active": true
+    },
+    "included": [
+      {
+        "id": "NDE3Mjk4NjM0IyMw",
+        "type": "orderentries",
+        "links": {
+          "self": "https://kaspi.kz/shop/api/v2/orderentries/NDE3Mjk4NjM0IyMw",
+          "related": ""
+        },
+        "attributes": {
+          "offer": {
+            "code": "17200006177",
+            "name": "BAGHERIA AR2936GREY 360мл. серый (керамика)"
+          },
+          "weight": 0,
+          "category": {
+            "code": "Master - Cups and saucers sets",
+            "title": "Кружки, блюдца и пары"
+          },
+          "quantity": 2,
+          "unitType": "PIECES",
+          "basePrice": 1090,
+          "totalPrice": 2180,
+          "entryNumber": 0,
+          "deliveryCost": 0
+        },
+        "relationships": {
+          "product": {
+            "data": {
+              "id": "MTEzNTAxNzMy",
+              "type": "masterproducts"
+            },
+            "links": {
+              "self": "https://kaspi.kz/shop/api/v2/orderentries/NDE3Mjk4NjM0IyMw/relationships/product",
+              "related": "https://kaspi.kz/shop/api/v2/orderentries/NDE3Mjk4NjM0IyMw/product"
+            }
+          },
+          "deliveryPointOfService": {
+            "data": {
+              "id": "TWVjaHRhX08zMQ",
+              "type": "pointofservices"
+            },
+            "links": {
+              "self": "https://kaspi.kz/shop/api/v2/orderentries/NDE3Mjk4NjM0IyMw/relationships/deliveryPointOfService",
+              "related": "https://kaspi.kz/shop/api/v2/orderentries/NDE3Mjk4NjM0IyMw/deliveryPointOfService"
+            }
+          }
+        }
+      }
+    ],
+    "sb_merchant_product": {
+      "code": "17200006177",
+      "name": "BAGHERIA AR2936GREY 360мл. серый (керамика)"
+    },
+    "sb_delivery_point_of_service": {
+      "address": {
+        "town": "г. Астана",
+        "building": null,
+        "district": null,
+        "latitude": 51.175205677278726,
+        "apartment": null,
+        "longitude": 71.48682341273998,
+        "streetName": " улица Александра Пушкина",
+        "streetNumber": " 28",
+        "formattedAddress": "г. Астана, улица Александра Пушкина,  28"
+      },
+      "displayName": "O31"
+    }
+  },
+  {
+    "main": {
+      "code": "417303002",
+      "state": "NEW",
+      "status": "APPROVED_BY_BANK",
+      "customer": {
+        "id": "Nzc4MTY2MTQ1OQ",
+        "name": null,
+        "lastName": "Бақытбайқызы",
+        "cellPhone": "7781661459",
+        "firstName": "Тілектес"
+      },
+      "preOrder": false,
+      "assembled": false,
+      "creditTerm": 12,
+      "totalPrice": 26000,
+      "paymentMode": "PAY_WITH_CREDIT",
+      "creationDate": 1727349996001,
+      "deliveryCost": 0,
+      "deliveryMode": "DELIVERY_REGIONAL_TODOOR",
+      "kaspiDelivery": {
+        "express": false,
+        "waybill": null,
+        "waybillNumber": null,
+        "firstMileCourier": null,
+        "returnedToWarehouse": false,
+        "courierTransmissionDate": null,
+        "courierTransmissionPlanningDate": 1727449200000
+      },
+      "originAddress": {
+        "id": "MzAwMjc1NjBfVFMz",
+        "city": {
+          "id": "MTUxMDEwMDAw",
+          "code": "151010000",
+          "name": "Актобе",
+          "active": true
+        },
+        "address": {
+          "town": "г. Актобе",
+          "building": null,
+          "district": null,
+          "latitude": 50.30057693546044,
+          "apartment": null,
+          "longitude": 57.1260854618756,
+          "streetName": " проспект Санкибай Батыра",
+          "streetNumber": " 1В",
+          "formattedAddress": "г. Актобе,  проспект Санкибай Батыра,  1В"
+        },
+        "displayName": "TS3"
+      },
+      "pickupPointId": "30027560_TS3",
+      "deliveryAddress": {
+        "town": "Актау",
+        "building": null,
+        "district": null,
+        "latitude": 43.69263,
+        "apartment": "152",
+        "longitude": 51.162191,
+        "streetName": "38-й микрорайон",
+        "streetNumber": "10",
+        "formattedAddress": "Актау, 38-й микрорайон, 10, 152"
+      },
+      "isKaspiDelivery": true,
+      "signatureRequired": false,
+      "approvedByBankDate": 1727350130233,
+      "plannedDeliveryDate": 1727719200000,
+      "deliveryCostForSeller": 0
+    },
+    "sb_city": {
+      "code": "151010000",
+      "name": "Актобе",
+      "active": true
+    },
+    "included": [
+      {
+        "id": "NDE3MzAzMDAyIyMw",
+        "type": "orderentries",
+        "links": {
+          "self": "https://kaspi.kz/shop/api/v2/orderentries/NDE3MzAzMDAyIyMw",
+          "related": ""
+        },
+        "attributes": {
+          "offer": {
+            "code": "17200000198",
+            "name": "MH 60F15 B"
+          },
+          "weight": 7000,
+          "category": {
+            "code": "Master - Funnels",
+            "title": "Вытяжки"
+          },
+          "quantity": 1,
+          "unitType": "PIECES",
+          "basePrice": 26000,
+          "totalPrice": 26000,
+          "entryNumber": 0,
+          "deliveryCost": 0
+        },
+        "relationships": {
+          "product": {
+            "data": {
+              "id": "MTAwMTQ2NDM2",
+              "type": "masterproducts"
+            },
+            "links": {
+              "self": "https://kaspi.kz/shop/api/v2/orderentries/NDE3MzAzMDAyIyMw/relationships/product",
+              "related": "https://kaspi.kz/shop/api/v2/orderentries/NDE3MzAzMDAyIyMw/product"
+            }
+          },
+          "deliveryPointOfService": {
+            "data": {
+              "id": "MzAwMjc1NjBfVFMz",
+              "type": "pointofservices"
+            },
+            "links": {
+              "self": "https://kaspi.kz/shop/api/v2/orderentries/NDE3MzAzMDAyIyMw/relationships/deliveryPointOfService",
+              "related": "https://kaspi.kz/shop/api/v2/orderentries/NDE3MzAzMDAyIyMw/deliveryPointOfService"
+            }
+          }
+        }
+      }
+    ],
+    "sb_merchant_product": {
+      "code": "17200000198",
+      "name": "MH 60F15 B"
+    },
+    "sb_delivery_point_of_service": null
+  }
+]
